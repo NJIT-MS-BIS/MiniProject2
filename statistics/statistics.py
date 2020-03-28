@@ -3,7 +3,7 @@ from statistics.median import median
 from statistics.mode import mode
 from statistics.stddev import stddev
 from statistics.varience import variance
-from statistics.mean import populationmean
+from statistics.mean import mean
 from statistics.proportion import proportion
 from statistics.zscore import zscore
 from statistics.correlation import correlation
@@ -17,7 +17,7 @@ class Statistics(Calculator):
         super().__init__()
 
     def population_mean(self, data):
-        self.result = populationmean(data)
+        self.result = mean(data)
         return self.result
 
     def median(self, data):

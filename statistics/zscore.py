@@ -1,13 +1,10 @@
-from calculator.square import squaring
-from calculator.division import division
-from calculator.addition import addition
-from calculator.subtraction import subtraction
-from Statistics.PopulationMean import populationmean
-from Statistics.StandardDeviation import stddev
+
+from statistics.statistics import mean
+from Statistics.stddev import stddev
 
 
 def zscore(num):
-    zmean = populationmean(num)
+    zmean = mean(num)
     sd = stddev(num)
     zlist = []
     for x in num:

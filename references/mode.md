@@ -6,4 +6,4 @@ For example, in the following list of numbers, 16 is the mode since it appears m
 
 - 3, 3, 6, 9, 16, 16, 16, 27, 27, 37, 48
 
-Source: investopedia.com 
+Source: www.investopedia.com

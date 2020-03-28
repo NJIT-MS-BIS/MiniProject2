@@ -1,5 +1,5 @@
 from calculator.calculator import Calculator
-from statistics.mean import mean
+
 
 
 class Statistics(Calculator):
@@ -32,10 +32,6 @@ class Statistics(Calculator):
             count_dictionary.update(a)
         mode_num = count_dictionary[max(count_dictionary.values())]
 
-    @staticmethod
-    def sq_root(data):
-        sq_r = data ** 0.5
-        return sq_r
 
     @staticmethod
     def variance(data):
@@ -45,3 +41,9 @@ class Statistics(Calculator):
     @staticmethod
     def stddev(data):
         return sq_root(variance(data))
+
+    @staticmethod
+    def quartile(data):
+        pass
+
+

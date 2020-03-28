@@ -29,3 +29,8 @@ class Calculator:
         result = division(num_one, num_two)
         return result
 
+    @staticmethod
+    def sq_root(data):
+        sq_r = data ** 0.5
+        return sq_r
+

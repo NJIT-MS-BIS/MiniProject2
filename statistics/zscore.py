@@ -1,6 +1,6 @@
 
 from statistics.statistics import mean
-from Statistics.stddev import stddev
+from statistics.stddev import stddev
 
 
 def zscore(num):

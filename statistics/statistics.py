@@ -4,23 +4,6 @@ from calculator.calculator import Calculator
 
 class Statistics(Calculator):
 
-    @staticmethod
-    def mean(data):
-        """Pass a list"""
-        return sum(data) // len(data)
-
-    @staticmethod
-    def median(data):
-        """Pass a list"""
-        n = len(data)
-        data.sort()
-        if n % 2 == 0:
-            first_half = data[n // 2]
-            second_half = data[n // 2 - 1]
-            median = (first_half + second_half) / 2
-        else:
-            median = data[n // 2]
-        return median
 
     @staticmethod
     def mode(data):

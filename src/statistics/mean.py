@@ -1,5 +1,5 @@
-from calculator.addition import addition
-from calculator.division import division
+from calculator import addition
+from calculator import division
 
 def mean(data):
     num_values = len(data)

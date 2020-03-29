@@ -1,4 +1,4 @@
-from calculator.calculator import sq_root
+from calculator import sq_root
 from statistics.statistics import variance
 
 

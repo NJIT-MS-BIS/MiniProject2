@@ -1,4 +1,4 @@
-from calculator.calculator import Calculator
+from calculator import Calculator
 from statistics.median import median
 from statistics.mode import mode
 from statistics.stddev import stddev

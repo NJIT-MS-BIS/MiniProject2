@@ -1,8 +1,8 @@
 import csv
-from utilities.absolutepath import absolutepath
+from utilities.absolutepath import absolute_path
 
 
-def ClassFactory(class_name, dictionary):
+def class_factory(class_name, dictionary):
     return type(class_name, (object,), dictionary)
 
 
@@ -11,15 +11,16 @@ class CsvReader:
 
     def __init__(self, filepath):
         self.data = []
-
-        with open(absolutepath(filepath)) as text_data:
-            csv_data = csv.DictReader(text_data, delimiter=',')
-            for row in csv_data:
-                self.data.append(row)
-        pass
+        try:
+            with open(absolute_path(filepath)) as text_data:
+                csv_data = csv.DictReader(text_data, delimiter=',')
+                for row in csv_data:
+                    self.data.append(row)
+        except OSError as err:
+            print(err)
 
     def return_data_as_class(self, class_name):
         objects = []
         for row in self.data:
-            objects.append(ClassFactory(class_name, row))
+            objects.append(class_factory(class_name, row))
         return objects

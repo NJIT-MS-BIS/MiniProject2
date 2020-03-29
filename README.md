@@ -1,4 +1,5 @@
 # MiniProject2
+
   NJIT IS60162 - Group Project for Statistical Calculator
 
 ### Contributors: Akmal Husanov (ahusanov) and Amanda Outar (amandaoutar)
@@ -66,4 +67,3 @@ Licensed under the [MIT Lincese](LICENSE)
 |Hash    |User          |Date and Time                  |Change                                                                                                                            |
 |--------|--------------|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 |af6d687 |ahusanov         |3/26/2020 2:13 AM|Feature: added statistics package mean, statistics getsample module     
-

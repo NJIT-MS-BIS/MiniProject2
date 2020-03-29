@@ -13,25 +13,25 @@
   - Utilities (decorators, csv helper, sql helper, random number helper)
   
   - Basic Calculations - [calculator](./src/calculator/):
-    1.  - [ ] Addition
-    2.  - [ ] Subtraction
-    3.  - [ ] Multiplication
-    4.  - [ ] Division
-    5.  - [ ] Square
-    6.  - [ ] Square Root
+    1.  - [x] Addition
+    2.  - [x] Subtraction
+    3.  - [x] Multiplication
+    4.  - [x] Division
+    5.  - [x] Square
+    6.  - [x] Square Root
     
   - Descriptive Statistics functions - [statistics](./src/statistics/):
-      1. - [ ] Mean
-      2. - [ ] Median
-      3. - [ ] Mode
+      1. - [x] Mean
+      2. - [x] Median
+      3. - [x] Mode
       4. - [ ] Variance
-      5. - [ ] Standard Deviation
+      5. - [x] Standard Deviation
       6. - [ ] Quartiles
       7. - [ ] Skewness
-      8. - [ ] Sample Correlation
-      9. - [ ] Population Correlation
-      10. - [ ] Z-Score
-      11. - [ ] Mean Deviation / Mean Absolute Deviation
+      8. - [x] Sample Correlation
+      9. - [x] Population Correlation
+      10. - [x] Z-Score
+      11. - [x] Mean Deviation / Mean Absolute Deviation
       
   - Unit Tests - [tests](./src/tests/):
       1. - [ ] Tests for csv reader

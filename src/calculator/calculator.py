@@ -1,3 +1,5 @@
+from calculator.square import squaring
+from calculator.squareRoot import squarerooting
 from calculator.subtraction import subtraction
 from calculator.addition import addition
 from calculator.division import division
@@ -22,10 +24,14 @@ class Calculator:
         self.result = multiplication(num_one, num_two)
         return self.result
 
-    def divide(sefl, num_one, num_two):
+    def divide(self, num_one, num_two):
         self.result = division(num_one, num_two)
         return self.result
 
-    def sq_root(self, data):
-        self.result = data ** 0.5
+    def square_root(self, num):
+        self.result = squarerooting(num)
+        return self.result
+
+    def square(self, num):
+        self.result = squaring(num)
         return self.result

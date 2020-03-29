@@ -1,9 +1,11 @@
 from calculator.addition import addition
 from calculator.division import division
 
-def mean(data):
-    num_values = len(data)
-    total = 0
-    for num in data:
-        total = addition(total, num)
-    return division(num_values, total)
+
+def mean(num_list: list):
+    try:
+        num_values = len(num_list)
+        total = sum(num_list)
+        return round(division(num_values, total), 8)
+    except ZeroDivisionError:
+        print("Error: Can not be divided by 0")

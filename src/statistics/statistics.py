@@ -1,4 +1,5 @@
-from calculator import Calculator
+from calculator.calculator import Calculator
+from statistics.mean import mean
 from statistics.median import median
 from statistics.mode import mode
 from statistics.stddev import stddev
@@ -9,13 +10,16 @@ from statistics.zscore import zscore
 from statistics.correlation import correlation
 
 
-
 class Statistics(Calculator):
     data = []
 
     def __init__(self):
         super().__init__()
 
+    def mean(self, data):
+        self.result = mean(data)
+        return self.result
+      
     def population_mean(self, data):
         self.result = mean(data)
         return self.result
@@ -47,6 +51,3 @@ class Statistics(Calculator):
     def correlation_coefficient(self, data, data1):
         self.result = correlation(data, data1)
         return self.result
-
-
-    pass

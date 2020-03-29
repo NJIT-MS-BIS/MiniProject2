@@ -3,34 +3,29 @@ from calculator.addition import addition
 from calculator.division import division
 from calculator.multiplication import multiplication
 
+
 class Calculator:
     result = 0
 
     def __init__(self, result):
         self.result = result
 
-    @staticmethod
-    def add(num_one, num_two):
-        result = addition(num_one, num_two)
-        return result
+    def add(self, num_one, num_two):
+        self.result = addition(num_one, num_two)
+        return self.result
 
-    @staticmethod
-    def subtract(num_one, num_two):
-        result = subtraction(num_one, num_two)
-        return result
+    def subtract(self, num_one, num_two):
+        self.result = subtraction(num_one, num_two)
+        return self.result
 
-    @staticmethod
-    def multiply(num_one, num_two):
-        result = multiplication(num_one, num_two)
-        return result
+    def multiply(self, num_one, num_two):
+        self.result = multiplication(num_one, num_two)
+        return self.result
 
-    @staticmethod
-    def divide(num_one, num_two):
-        result = division(num_one, num_two)
-        return result
+    def divide(sefl, num_one, num_two):
+        self.result = division(num_one, num_two)
+        return self.result
 
-    @staticmethod
-    def sq_root(data):
-        sq_r = data ** 0.5
-        return sq_r
-
+    def sq_root(self, data):
+        self.result = data ** 0.5
+        return self.result

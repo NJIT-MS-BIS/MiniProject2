@@ -1,8 +1,7 @@
 import unittest
 from numpy.random import seed
 from numpy.random import randint
-from statistics.statistics import Statistics
-import pprint
+from statistics import Statistics
 
 
 class MyTestCase(unittest.TestCase):

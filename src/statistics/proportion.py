@@ -1,4 +1,4 @@
-from calculator import division
+from src.calculator.division import division
 
 
 def proportion(num):

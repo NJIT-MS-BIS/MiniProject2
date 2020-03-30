@@ -7,6 +7,7 @@ from src.statistics.mean import mean
 from src.statistics.proportion import proportion
 from src.statistics.zscore import zscore
 from src.statistics.correlation import correlation
+from src.statistics.quartiles import quartiles
 
 
 class Statistics(Calculator):
@@ -49,4 +50,8 @@ class Statistics(Calculator):
 
     def correlation_coefficient(self, data, data1):
         self._result = correlation(data, data1)
+        return self._result
+
+    def quartiles(self, data):
+        self._result = quartiles(data)
         return self._result

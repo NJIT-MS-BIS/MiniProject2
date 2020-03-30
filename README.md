@@ -137,12 +137,6 @@ Licensed under the [MIT Lincese](LICENSE)
 |31ebc8b|amandaoutar|2020-03-27T00:39:29-04:00|Merge pull request #1 from IS-601862/amanda									|					
 |c9cb722|amanda|2020-03-27T00:22:55-04:00|[amanda] Feature: added subtraction												|		
 |a2e8e31|amanda|2020-03-27T00:22:22-04:00|Update .gitignore														            |
-|8ac4abe|Adam Soliev|2020-03-27T00:10:44-04:00|Revert "[amanda] Feature: added subtraction"									|					
-|eb64088|Adam Soliev|2020-03-27T00:10:39-04:00|Revert "Update .gitignore"													|	
-|41e9e19|Adam Soliev|2020-03-27T00:09:41-04:00|[amanda] Feature: added subtraction											|			
-|f06c8b2|Adam Soliev|2020-03-27T00:09:11-04:00|Update .gitignore														    |
-|d804d58|Adam Soliev|2020-03-26T23:58:56-04:00|Revert "[amanda] Task: added addition module"								|						
-|1064cb8|Adam Soliev|2020-03-26T12:56:07-04:00|[amanda] Task: added addition module											|			
 |06a6dc1|ahusanov|2020-03-26T02:15:14-04:00|[akmal] Feature: added utilities package with absolutepath						|		
 |171a59e|ahusanov|2020-03-26T02:14:35-04:00|[akmal] Feature: added testing package											|			
 |3561a36|ahusanov|2020-03-26T02:13:42-04:00|Feature: added statistics package mean & statistics getsample module			|		
@@ -150,5 +144,4 @@ Licensed under the [MIT Lincese](LICENSE)
 |1ffb188|ahusanov|2020-03-26T02:11:00-04:00|Feature: added csv reader package added											|			
 |4316367|ahusanov|2020-03-26T02:10:26-04:00|Feature: added calculators with add & division									|					
 |3c7964a|Akmal Husanov|2020-03-25T10:09:03-04:00|Initial commit																|
-|
 

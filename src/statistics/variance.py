@@ -13,3 +13,5 @@ def variance(num: list):
         return division(x, num_values)
     except ZeroDivisionError as err:
         print(err)
+    except (ValueError, TypeError):
+        print ("Error: Check your data inputs")

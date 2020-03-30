@@ -17,37 +17,37 @@ class Statistics(Calculator):
         super().__init__()
 
     def mean(self, data):
-        self.result = mean(data)
-        return self.result
+        self._result = mean(data)
+        return self._result
       
     def population_mean(self, data):
-        self.result = mean(data)
-        return self.result
+        self._result = mean(data)
+        return self._result
 
     def median(self, data):
-        self.result = median(data)
-        return self.result
+        self._result = median(data)
+        return self._result
 
     def mode(self, data):
-        self.result = mode(data)
-        return self.result
+        self._result = mode(data)
+        return self._result
 
     def stddev(self, data):
-        self.result = stddev(data)
-        return self.result
+        self._result = stddev(data)
+        return self._result
 
     def variance(self, data):
-        self.result = variance(data)
-        return self.result
+        self._result = variance(data)
+        return self._result
 
     def proportion(self, data):
-        self.result = proportion(data)
-        return self.result
+        self._result = proportion(data)
+        return self._result
 
     def zscore(self, data):
-        self.result = zscore(data)
-        return self.result
+        self._result = zscore(data)
+        return self._result
 
     def correlation_coefficient(self, data, data1):
-        self.result = correlation(data, data1)
-        return self.result
+        self._result = correlation(data, data1)
+        return self._result

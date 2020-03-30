@@ -7,31 +7,35 @@ from calculator.multiplication import multiplication
 
 
 class Calculator:
-    result = 0
+    _result = 0
 
     def __init__(self, result):
-        self.result = result
+        self._result = result
+
+    @property
+    def get_result(self):
+        return self._result
 
     def add(self, num_one, num_two):
-        self.result = addition(num_one, num_two)
-        return self.result
+        self._result = addition(num_one, num_two)
+        return self._result
 
     def subtract(self, num_one, num_two):
-        self.result = subtraction(num_one, num_two)
-        return self.result
+        self._result = subtraction(num_one, num_two)
+        return self._result
 
     def multiply(self, num_one, num_two):
-        self.result = multiplication(num_one, num_two)
-        return self.result
+        self._result = multiplication(num_one, num_two)
+        return self._result
 
     def divide(self, num_one, num_two):
-        self.result = division(num_one, num_two)
-        return self.result
+        self._result = division(num_one, num_two)
+        return self._result
 
     def square_root(self, num):
-        self.result = squarerooting(num)
-        return self.result
+        self._result = squarerooting(num)
+        return self._result
 
     def square(self, num):
-        self.result = squaring(num)
-        return self.result
+        self._result = squaring(num)
+        return self._result

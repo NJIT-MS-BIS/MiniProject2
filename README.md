@@ -27,7 +27,7 @@
       1. - [x] Mean
       2. - [x] Median
       3. - [x] Mode
-      4. - [ ] Variance
+      4. - [x] Variance
       5. - [x] Standard Deviation
       6. - [ ] Quartiles
       7. - [ ] Skewness
@@ -37,10 +37,9 @@
       11. - [x] Mean Deviation / Mean Absolute Deviation
       
   - Unit Tests - [tests](./src/tests/):
-      1. - [ ] Tests for csv reader
-      2. - [ ] Testst for Decorators
-      3. - [ ] Tests for calculator using csv files
-      4. - [ ] Tests for statistic functions using csv files 
+      1. - [x] Tests for csv reader
+      2. - [x] Tests for calculator using csv files
+      3. - [x] Tests for statistic functions using csv files 
  
 ### 2. Data directory - [data](./data/)
   

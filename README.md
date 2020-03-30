@@ -4,6 +4,9 @@
 
 ### Contributors: Akmal Husanov (ahusanov) and Amanda Outar (amandaoutar)
 
+[![Build Status](https://travis-ci.org/IS-601862/MiniProject2.svg?branch=master)](https://travis-ci.org/IS-601862/MiniProject2)
+
+
 ## Project structure and Contents
 
 ### 1. Source directory - [src](./src/)

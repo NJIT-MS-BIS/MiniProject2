@@ -66,8 +66,6 @@ Licensed under the [MIT Lincese](LICENSE)
 ## Changelog:
 [changeLog.csv](./log/changelog.csv)
 
-### Changelog:
-[changeLog.csv](./log/changelog.csv)
 
 |Hash    |User          |Date and Time                  |Change                                                             |
 |--------|--------------|-------------------------------|-------------------------------------------------------------------|

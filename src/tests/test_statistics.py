@@ -13,17 +13,17 @@ unittest2.TestLoader.sortTestMethodsUsing = None
 class StatisticsTestCases(unittest2.TestCase):
     """Tests all functions in statistics module using csv file."""
 
-    test_data = CsvReader('../../data/Test_Data.csv').data
+    test_data = CsvReader('data/Test_Data.csv').data
     column1 = [int(row['value1']) for row in test_data]
     column2 = [int(row['value2']) for row in test_data]
-    p_answers = CsvReader('../../data/Test_Proportion.csv').data
-    z_answers = CsvReader('../../data/Test_ZScores.csv').data
+    p_answers = CsvReader('data/Test_Proportion.csv').data
+    z_answers = CsvReader('data/Test_ZScores.csv').data
     column_proportion = [float(row['Proportion']) for row in p_answers]
     column_zscore = [float(row['Z-Score']) for row in z_answers]
-    test_answer = CsvReader('../../data/UnitTestStatsAnswers.csv').data
-    sample_data = CsvReader('../../data/Test_Data_Sample.csv').data
+    test_answer = CsvReader('data/UnitTestStatsAnswers.csv').data
+    sample_data = CsvReader('data/Test_Data_Sample.csv').data
     column3 = [int(row['sample1']) for row in sample_data]
-    sample_answer = CsvReader('../../data/UnitTestSampleAnswers.csv').data
+    sample_answer = CsvReader('data/UnitTestSampleAnswers.csv').data
 
     def setUp(self) -> None:
         seed(5)

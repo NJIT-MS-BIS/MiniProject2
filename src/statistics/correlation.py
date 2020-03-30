@@ -1,4 +1,4 @@
-from statistics.zscore import zscore
+from src.statistics.zscore import zscore
 
 
 def correlation(data, data1):

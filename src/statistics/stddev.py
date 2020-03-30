@@ -1,4 +1,4 @@
-from calculator.calculator import squarerooting
+from src.calculator.squareRoot import squarerooting
 from src.statistics.variance import variance
 
 

@@ -1,5 +1,5 @@
-from calculator.addition import addition
-from calculator.division import division
+from src.calculator.addition import addition
+from src.calculator.division import division
 
 
 def mean(num_list: list):

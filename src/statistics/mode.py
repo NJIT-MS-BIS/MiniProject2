@@ -1,9 +1,16 @@
-def mode(data):
-    """Pass a list"""
-    count_dictionary = {}
-    for number in data:
-        frequency = data.count(number)
-        a = {number: frequency}
-        count_dictionary.update(a)
-    mode_num = count_dictionary[max(count_dictionary.values())]
-    return mode_num
+from collections import Counter
+
+
+def mode(num: list):
+    try:
+        num_values = len(num)
+        count = Counter(num)
+        get_mode = dict(count)
+        mode = [k for k, v in get_mode.items() if v == max(list(count.values()))]
+        if len(mode) == num_values:
+            get_mode = "No mode found"
+        else:
+            get_mode = mode[0]
+        return get_mode
+    except ZeroDivisionError as err:
+        print(err)

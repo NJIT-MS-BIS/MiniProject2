@@ -1,13 +1,12 @@
-from calculator.calculator import Calculator
-from statistics.mean import mean
-from statistics.median import median
-from statistics.mode import mode
-from statistics.stddev import stddev
-from statistics.varience import variance
-from statistics.mean import mean
-from statistics.proportion import proportion
-from statistics.zscore import zscore
-from statistics.correlation import correlation
+from src.calculator.calculator import Calculator
+from src.statistics.median import median
+from src.statistics.mode import mode
+from src.statistics.variance import variance
+from src.statistics.stddev import std_dev
+from src.statistics.mean import mean
+from src.statistics.proportion import proportion
+from src.statistics.zscore import zscore
+from src.statistics.correlation import correlation
 
 
 class Statistics(Calculator):
@@ -33,7 +32,7 @@ class Statistics(Calculator):
         return self._result
 
     def stddev(self, data):
-        self._result = stddev(data)
+        self._result = std_dev(data)
         return self._result
 
     def variance(self, data):

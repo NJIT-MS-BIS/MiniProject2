@@ -1,9 +1,9 @@
-from calculator.square import squaring
-from calculator.squareRoot import squarerooting
-from calculator.subtraction import subtraction
-from calculator.addition import addition
-from calculator.division import division
-from calculator.multiplication import multiplication
+from src.calculator.square import squaring
+from src.calculator.squareRoot import squarerooting
+from src.calculator.subtraction import subtraction
+from src.calculator.addition import addition
+from src.calculator.division import division
+from src.calculator.multiplication import multiplication
 
 
 class Calculator:

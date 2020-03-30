@@ -9,12 +9,16 @@ from calculator.multiplication import multiplication
 class Calculator:
     _result = 0
 
-    def __init__(self, result):
-        self._result = result
+    def __init__(self):
+        pass
 
     @property
     def get_result(self):
         return self._result
+
+    @property
+    def set_result(self, value):
+        self._result = value
 
     def add(self, num_one, num_two):
         self._result = addition(num_one, num_two)

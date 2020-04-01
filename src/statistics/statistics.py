@@ -8,6 +8,7 @@ from src.statistics.proportion import proportion
 from src.statistics.zscore import zscore
 from src.statistics.correlation import correlation
 from src.statistics.quartiles import quartiles
+from src.statistics.skewness import skewness
 
 
 class Statistics(Calculator):
@@ -19,7 +20,7 @@ class Statistics(Calculator):
     def mean(self, data):
         self._result = mean(data)
         return self._result
-      
+
     def population_mean(self, data):
         self._result = mean(data)
         return self._result
@@ -54,4 +55,8 @@ class Statistics(Calculator):
 
     def quartiles(self, data):
         self._result = quartiles(data)
+        return self._result
+
+    def skewness(self, data):
+        self._result = skewness(data)
         return self._result

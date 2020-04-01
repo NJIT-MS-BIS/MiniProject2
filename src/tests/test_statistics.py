@@ -84,24 +84,11 @@ class StatisticsTestCases(unittest2.TestCase):
                              float(row['correlation']))
             self.assertEqual(self.statistics._result, float(row['correlation']))
 
-    # def test_proportion_variance_statistics(self):
-    #     for row in self.test_answer:
-    #         pprint(row['proportion_variance'])
-    #         self.assertEqual(self.statistics.population_proportion_variance(self.column1),
-    #                          float(row['proportion_variance']))
-    #         self.assertEqual(self.statistics._result, float(row['proportion_variance']))
-    #
-    # def test_pvalue_statistics(self):
-    #     self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
-    #     self.assertEqual(self.statistics._result, self.column_zscore)
-    #
-    # def test_confidence_interval(self):
-    #     for row in self.test_answer:
-    #         pprint(row['ci_top'])
-    #         pprint(row['ci_bottom'])
-    #         self.assertEqual(self.statistics.confidence_interval_top(self.column1), float(row['ci_top']))
-    #         self.assertEqual(self.statistics.confidence_interval_bottom(self.column1), float(row['ci_bottom']))
-
+    def test_skewness_statistics(self):
+        for row in self.test_answer:
+            pprint(row["skewness"])
+            self.assertEqual(self.statistics.skewness(self.column1), float(row['skewness']))
+            self.assertEqual(self.statistics.get_result, float(row['skewness']))
 
 if __name__ == '__main__':
     unittest2.main()

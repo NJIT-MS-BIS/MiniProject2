@@ -10,7 +10,7 @@ def skewness(data: list):
         median_data = median(data)
         stddev_data = std_dev(data)
         skewness = 3 * (mean_data - median_data) / stddev_data
-        return skewness
+        return round(skewness, 9)
     except ZeroDivisionError:
         print("Error: Can't Divide by 0")
     except ValueError:

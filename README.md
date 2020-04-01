@@ -29,8 +29,8 @@
       3. - [x] Mode
       4. - [x] Variance
       5. - [x] Standard Deviation
-      6. - [ ] Quartiles
-      7. - [ ] Skewness
+      6. - [x] Quartiles
+      7. - [x] Skewness
       8. - [x] Sample Correlation
       9. - [x] Population Correlation
       10. - [x] Z-Score

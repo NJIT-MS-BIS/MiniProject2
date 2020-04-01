@@ -1,7 +1,7 @@
 from src.statistics.zscore import zscore
 
 
-def correlation(data, data1):
+def correlation(data: list, data1: list):
     try:
         z1 = zscore(data)
         z2 = zscore(data1)

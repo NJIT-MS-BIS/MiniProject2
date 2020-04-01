@@ -9,3 +9,4 @@ def mean(num_list: list):
         return round(division(total, num_values), 8)
     except ZeroDivisionError:
         print("Error: Can not be divided by 0")
+

@@ -22,6 +22,9 @@
     4.  - [x] Division
     5.  - [x] Square
     6.  - [x] Square Root
+    7. - [x] [test completed](https://github.com/IS-601862/MiniProject2/projects/1#card-38264352)
+    8. - [x] [test inprogress](https://github.com/IS-601862/MiniProject2/projects/1#card-38264357)
+    9. - [ ] [test todo](https://github.com/IS-601862/MiniProject2/projects/1#card-38264362)
     
   - Descriptive Statistics functions - [statistics](./src/statistics/):
       1. - [x] Mean

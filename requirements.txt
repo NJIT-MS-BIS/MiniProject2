@@ -1,5 +1,5 @@
 numpy==1.18.2
 pytest==5.4.1
-PyYAML==5.3
+PyYAML==5.4
 unittest2==1.1.0
 urllib3==1.25.8
